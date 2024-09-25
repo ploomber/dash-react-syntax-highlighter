@@ -21,7 +21,11 @@
 ![installation](./demo/demo.png)
 
 
+<p align="center">Live demo: [dash_react_syntax_highlighter.ploomberapp.io](https://dash_react_syntax_highlighter.ploomberapp.io/)</p>
 Live demo: [dash_react_syntax_highlighter.ploomberapp.io](https://dash_react_syntax_highlighter.ploomberapp.io/)
+
+<br />
+<br />
 
 ## Installation
 
