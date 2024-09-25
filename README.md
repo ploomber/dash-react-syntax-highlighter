@@ -1,4 +1,25 @@
-# Dash react-syntax-highlighter
+<p align="center">
+	<h1 align="center"><b>Dash react-syntax-highlighter</b></h1>
+	<p align="center">
+		Beautiful syntax highlighting for your Dash apps.
+    <br />
+    <br />
+    <br />
+    <img width="50" height="50" src="https://avatars.githubusercontent.com/u/60114551?s=200&v=4" alt="Ploomber Logo"> 
+    <br />
+    <b>  Made by <a href="https://ploomber.io">Ploomber</a> with ❤️</b>
+    <br />
+    <br />
+    <i>~ Deploy your Dash application on <a href="https://ploomber.io">Ploomber.io</a> for free.~</i>
+    <br />
+  </p>
+</p>
+<br/>
+
+
+
+![installation](./demo/demo.png)
+
 
 Live demo: [dash_react_syntax_highlighter.ploomberapp.io](https://dash_react_syntax_highlighter.ploomberapp.io/)
 
