@@ -1,0 +1,11 @@
+include dash_react_syntax_highlighter/dash_react_syntax_highlighter.min.js
+include dash_react_syntax_highlighter/dash_react_syntax_highlighter.min.js.map
+include dash_react_syntax_highlighter/async-*.js
+include dash_react_syntax_highlighter/async-*.js.map
+include dash_react_syntax_highlighter/*-shared.js
+include dash_react_syntax_highlighter/*-shared.js.map
+include dash_react_syntax_highlighter/metadata.json
+include dash_react_syntax_highlighter/package-info.json
+include README.md
+include LICENSE
+include package.json
