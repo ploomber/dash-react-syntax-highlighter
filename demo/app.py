@@ -1,5 +1,5 @@
 import dash_react_syntax_highlighter
-from dash import Dash, html, dcc, Input, Output, callback
+from dash import Dash, html
 
 app = Dash(__name__)
 
@@ -19,23 +19,20 @@ style_options = ["dark", "coy", "okaidia", "twilight", "solarizedlight"]
 
 app.layout = html.Div(
     [
-        dcc.Dropdown(
-            id="style-selector",
-            options=[{"label": style, "value": style} for style in style_options],
-            value="okaidia",
-            style={"width": "200px", "marginBottom": "10px"},
-        ),
-        dash_react_syntax_highlighter.DashReactSyntaxHighlighter(
-            id="input", code=sample_code, language="python", styleName="okaidia"
-        ),
+        html.H1("Syntax Highlighting Styles"),
+        *[
+            html.Div(
+                [
+                    html.H2(style),
+                    dash_react_syntax_highlighter.DashReactSyntaxHighlighter(
+                        code=sample_code, language="python", styleName=style
+                    ),
+                ]
+            )
+            for style in style_options
+        ],
     ]
 )
-
-
-@callback(Output("input", "styleName"), Input("style-selector", "value"))
-def update_style(selected_style):
-    return selected_style
-
 
 if __name__ == "__main__":
     app.run_server(debug=True)

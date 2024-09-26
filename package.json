@@ -1,6 +1,6 @@
 {
   "name": "dash_react_syntax_highlighter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react-syntax-highlighter for Dash",
   "repository": {
     "type": "git",
